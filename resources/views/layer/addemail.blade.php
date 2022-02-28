@@ -185,8 +185,8 @@ https://templatemo.com/tm-568-digimedia
                                             </div>
                                             
                                             <div class="add-button">
-                                                <a href="/services" class="btn btn-link" >Cancel</a>
-                                                <a href="/services" class="btn btn-primary" >Create</a>
+                                                <a href="/campaign" class="btn btn-link" >Cancel</a>
+                                                <a href="/campaign" class="btn btn-primary" >Create</a>
                                              
                                             </div>
                                          

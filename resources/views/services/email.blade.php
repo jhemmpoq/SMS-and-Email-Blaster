@@ -139,9 +139,9 @@ https://templatemo.com/tm-568-digimedia
                             
                                 <nav aria-label="breadcrumb pull-right">
                                     <ol class="breadcrumb">
-                                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                      <li class="breadcrumb-item"><a href="#">Library</a></li>
-                                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                                      <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                                      <li class="breadcrumb-item"><a href="/services">Contacts</a></li>
+                                      <li class="breadcrumb-item active" aria-current="page">List</li>
                                     </ol>
                                   </nav>
                             
@@ -180,16 +180,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
                                                             
                                                             </td>
                                                         </tr>
@@ -201,16 +201,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td>+639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -221,16 +221,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -242,16 +242,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -262,16 +262,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -282,16 +282,16 @@ https://templatemo.com/tm-568-digimedia
                                                           <td> +639 12 3456 789</td>
                                                           <td>
                                                             <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                         </td>
                                                         </tr>
@@ -303,16 +303,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -323,16 +323,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -344,16 +344,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -364,16 +364,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -384,16 +384,16 @@ https://templatemo.com/tm-568-digimedia
                                                           <td> +639 12 3456 789</td>
                                                           <td>
                                                             <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                         </td>
                                                         </tr>
@@ -405,16 +405,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -425,16 +425,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -446,16 +446,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -466,16 +466,16 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
 
                                                             </td>
                                                         </tr>
@@ -537,14 +537,10 @@ https://templatemo.com/tm-568-digimedia
 </div>
 
 
-{{-- <script type="text/javascript">
-  $(document).ready(function () {
-  $('#dtBasicExample').DataTable();
-  $('.dataTables_length').addClass('bs-select');
-});
-
-</script> --}}
-
+@extends('modal')
+@section('content')
+    
+@endsection
   
   
  

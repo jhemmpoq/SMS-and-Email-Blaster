@@ -138,9 +138,8 @@ https://templatemo.com/tm-568-digimedia
                     <div class="row">
                       <nav aria-label="breadcrumb pull-right">
                         <ol class="breadcrumb">
-                          <li class="breadcrumb-item"><a href="#">Home</a></li>
-                          <li class="breadcrumb-item"><a href="#">Library</a></li>
-                          <li class="breadcrumb-item active" aria-current="page">Data</li>
+                          <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Segments</li>
                         </ol>
                       </nav>
                         <div class="col-lg-12">
@@ -167,19 +166,33 @@ https://templatemo.com/tm-568-digimedia
                                                   <tr>
                                                       <td>Engaged User from last email in Makati</td>
                                                       <td>
-                                                          <i class="bi bi-pencil-fill"></i>
-                                                          <span class="px-3"><i class="bi bi-trash-fill"></i></span>
-                                                          <i class="bi bi-three-dots"></i>
-
+                                                        <span class="actionButton">
+                                                          <a href="#">
+                                                              <i class="bi bi-eye-fill"></i>
+                                                          </a>
+                                                          <a href="#" class="px-3">
+                                                              <i class="bi bi-pencil-fill"></i>
+                                                          </a>
+                                                          <a href="#">
+                                                              <i class="bi bi-trash-fill"></i>
+                                                          </a>
+                                                      </span>
                                                       </td>
                                                   </tr>
                                                   <tr>
                                                     <td>Engaged User from Manila</td>
                                                     <td>
-                                                        <i class="bi bi-pencil-fill"></i>
-                                                        <span class="px-3"><i class="bi bi-trash-fill"></i></span>
-                                                        <i class="bi bi-three-dots"></i>
-
+                                                      <span class="actionButton">
+                                                        <a href="#">
+                                                            <i class="bi bi-eye-fill"></i>
+                                                        </a>
+                                                        <a href="#" class="px-3">
+                                                            <i class="bi bi-pencil-fill"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="bi bi-trash-fill"></i>
+                                                        </a>
+                                                    </span>
                                                     </td>
                                                 </tr>
 

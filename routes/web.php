@@ -88,3 +88,11 @@ Route::get('/contacts/groups/addemail', function () {
 Route::get('/contacts/groups/addboth', function () {
     return view('layer.addboth');
 });
+
+Route::get('/modal', function () {
+    return view('modal');
+});
+
+Route::get('/sample', function () {
+    return view('sample');
+});
