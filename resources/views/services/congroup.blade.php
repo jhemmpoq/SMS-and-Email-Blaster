@@ -140,6 +140,13 @@ https://templatemo.com/tm-568-digimedia
 
                       <div class="container-fluid mt-100">
                         <div class="row">
+                            <nav aria-label="breadcrumb pull-right">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                                  <li class="breadcrumb-item"><a href="/services">Contacts</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Groups</li>
+                                </ol>
+                              </nav>
                             <div class="col-lg-12 main-datatable">
                                 <div class="card">
                                     <div class="card-body">
@@ -233,13 +240,13 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> <span class="badge bg-primary">Active</span> </td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
                                                                 </span>
@@ -252,13 +259,13 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> <span class="badge bg-danger">Unactive</span></td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
                                                                 </span>
@@ -272,13 +279,13 @@ https://templatemo.com/tm-568-digimedia
                                                             <td><span class="badge bg-primary">Active</span></td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
                                                                 </span>
@@ -291,13 +298,13 @@ https://templatemo.com/tm-568-digimedia
                                                             <td> <span class="badge bg-primary">Active</span> </td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
                                                                 </span>
@@ -329,39 +336,10 @@ https://templatemo.com/tm-568-digimedia
 </div>
 
 
-
-
-{{-- <script type="text/javascript">
-  $(document).ready(function () {
-  $('#dtBasicExample').DataTable();
-  $('.dataTables_length').addClass('bs-select');
-});
-
-</script> --}}
-
-{{-- 
-<script>
-    function myFunction() {
-        var input, filter, table, tr, td, i, txtValue;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        table = document.getElementById("myTable");
-        tr = table.getElementsByTagName("tr");
-        for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0];
-            if (td) {
-            txtValue = td.textContent || td.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else {
-                tr[i].style.display = "none";
-            }
-            }       
-        }
-        }
-</script> --}}
-  
-  
+@extends('modal')
+@section('content')
+    
+@endsection
   
  
   @extends('layouts.footer')

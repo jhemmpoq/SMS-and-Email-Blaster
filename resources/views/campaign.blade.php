@@ -1,6 +1,6 @@
 {{-- @extends('layouts.head')
 @section('content')
-    
+
 @endsection --}}
 
 <!DOCTYPE html>
@@ -17,31 +17,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>SMS and Email Blaster</title>
-    {{-- <div>
-        @yield('content')
-    </div> --}}
-    <!-- Bootstrap core CSS -->
-    {{-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
+
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-
-
-    <!-- Additional CSS Files -->
-    {{-- <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-digimedia-v1.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css"> --}}
     <link rel="stylesheet" href="{{ asset('css/dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fontawesome.css') }}">
     <link rel="stylesheet" href="{{ asset('css/templatemo-digimedia-v1.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animated.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.css') }}">
-<!--
+    <script src="{{asset('js/app.js') }}"></script>
 
-TemplateMo 568 DigiMedia
 
-https://templatemo.com/tm-568-digimedia
-
--->
   </head>
 
   <body>
@@ -62,10 +47,10 @@ https://templatemo.com/tm-568-digimedia
               <li class="scroll-to-section"><a href="/">Home</a></li>
               <li class="scroll-to-section"><a href="/services" class="active">Services</a></li>
               <li class="scroll-to-section"><a href="/pricing">Pricing</a></li>
-              <li class="scroll-to-section"><a href="#about">About</a></li> 
+              <li class="scroll-to-section"><a href="#about">About</a></li>
               <li><button type="button" class="btn btn-outline-primary">Sign Up</button></li>
               <li><button type="button" class="btn btn-primary">Login</button></li>
-            </ul>        
+            </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -83,16 +68,6 @@ https://templatemo.com/tm-568-digimedia
   </div>
 
   <div class="d-flex" id="wrapper">
-    <!-- Sidebar-->
-    {{-- <div class="border-end nav-bar" id="sidebar-wrapper">
-        <div class="sidebar-heading border-bottom nav-bar">Menu</div>
-        <div class="list-group list-group-flush nav-bar">
-            <a class="list-group-item list-group-item-action list-group-item-primary p-3 nav-bar" href="/">Home</a>
-            <a class="list-group-item list-group-item-action list-group-item-primary p-3 nav-bar" href="/segment">Segments</a>
-            <a class="list-group-item list-group-item-action list-group-item-primary p-3 nav-bar" href="/campaigns">Campaigns</a>
-            
-        </div>
-    </div> --}}
     <div class="container-fluid">
       <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
@@ -109,7 +84,7 @@ https://templatemo.com/tm-568-digimedia
                   <li>
                       <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
                           <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Contacts</span> </a>
-                      <ul class="collapse show nav flex-column ms-4" id="submenu1" data-bs-parent="#menu">
+                      <ul class="collapse nav flex-column ms-4" id="submenu1" data-bs-parent="#menu">
                           <li class="w-100">
                               <a href="/contact/list" class="nav-link px-0"><i class="bi bi-list-ul"></i> <span class="d-none d-sm-inline">List</span></a>
                           </li>
@@ -130,19 +105,16 @@ https://templatemo.com/tm-568-digimedia
               <hr>
           </div>
       </div>
-          
+
           <div class="col py-3">
             <h3 class="head-page-title">Campaigns</h3>
                 <ul class="list-unstyled">
-                {{-- <div class="card border-primary"> --}}
-                  <a class="btn btn-primary btn-create" href="#" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                   <div class="container-fluid mt-100">
                     <div class="row">
                       <nav aria-label="breadcrumb pull-right">
                         <ol class="breadcrumb">
-                          <li class="breadcrumb-item"><a href="#">Home</a></li>
-                          <li class="breadcrumb-item"><a href="#">Library</a></li>
-                          <li class="breadcrumb-item active" aria-current="page">Data</li>
+                          <li class="breadcrumb-item"><a href="/services">Services</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Campaign</li>
                         </ol>
                       </nav>
                         <div class="col-lg-12">
@@ -166,10 +138,6 @@ https://templatemo.com/tm-568-digimedia
                                         </div>
 
                                         <div class="card-body">
-                                          
-                                          <h4 class="card-title">Bologna</h4>
-                                          <h6 class="card-subtitle mb-2">Emilia-Romagna Region, Italy</h6>
-                                          
 
                                            <div class="tab-content mt-3">
                                             <div class="tab-pane active" id="sms" role="tabpanel">
@@ -180,7 +148,7 @@ https://templatemo.com/tm-568-digimedia
                                                 <div class="col-lg-8 createNew">
                                                   <a class="btn btn-primary btn-create" href="/contacts/groups/addsms" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                                 </div> <br>
-                                            </div> 
+                                            </div>
                                             <table id="dtBasicExample" class="table table-striped table-xs mb-0">
                                                 <thead>
                                                     <tr>
@@ -192,28 +160,24 @@ https://templatemo.com/tm-568-digimedia
                                                   <tr>
                                                       <td>Sale Campaign, Giving Vouchers</td>
                                                       <td>
-                                                          <i class="bi bi-pencil-fill"></i>
-                                                          <span class="px-3"><i class="bi bi-trash-fill"></i></span>
-                                                          <i class="bi bi-three-dots"></i>
-
+                                                        <span class="actionButton">
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#viewSMSCampaign">
+                                                              <i class="bi bi-eye-fill"></i>
+                                                          </a>
+                                                          <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editSMSCampaign">
+                                                              <i class="bi bi-pencil-fill"></i>
+                                                          </a>
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#deleteSMSCampaign">
+                                                              <i class="bi bi-trash-fill"></i>
+                                                          </a>
+                                                        </span>
                                                       </td>
                                                   </tr>
-                                                  <tr>
-                                                    <td>Engaged User from Manila</td>
-                                                    <td>
-                                                        <i class="bi bi-pencil-fill"></i>
-                                                        <span class="px-3"><i class="bi bi-trash-fill"></i></span>
-                                                        <i class="bi bi-three-dots"></i>
-
-                                                    </td>
-                                                  </tr>
-
-                                                  
                                                 </tbody>
                                             </table>
                                             </div>
-                                             
-                                            <div class="tab-pane" id="email" role="tabpanel" aria-labelledby="email-tab">  
+
+                                            <div class="tab-pane" id="email" role="tabpanel" aria-labelledby="email-tab">
                                               <div class="row d-flex tablehead">
                                                 <div class="col-lg-4 search">
                                                   <input class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
@@ -221,7 +185,7 @@ https://templatemo.com/tm-568-digimedia
                                                 <div class="col-lg-8 createNew">
                                                   <a class="btn btn-primary btn-create" href="/contacts/groups/addemail" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                                 </div> <br>
-                                            </div> 
+                                            </div>
                                               <table id="dtBasicExample" class="table table-striped table-xs mb-0">
                                                   <thead>
                                                     <tr>
@@ -233,19 +197,26 @@ https://templatemo.com/tm-568-digimedia
                                                   <tr>
                                                       <td>Sale Campaign, Giving Vouchers</td>
                                                       <td>
-                                                          <i class="bi bi-pencil-fill"></i>
-                                                          <span class="px-3"><i class="bi bi-trash-fill"></i></span>
-                                                          <i class="bi bi-three-dots"></i>
-
+                                                        <span class="actionButton">
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#viewEmailCampaign">
+                                                              <i class="bi bi-eye-fill"></i>
+                                                          </a>
+                                                          <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editEmailCampaign">
+                                                              <i class="bi bi-pencil-fill"></i>
+                                                          </a>
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#deleteEmailCampaign">
+                                                              <i class="bi bi-trash-fill"></i>
+                                                          </a>
+                                                        </span>
                                                       </td>
                                                   </tr>
-                                                 
 
-                                                  
+
+
                                                 </tbody>
                                               </table>
                                             </div>
-                                             
+
                                             <div class="tab-pane" id="smsandemail" role="tabpanel" aria-labelledby="smsandemail-tab">
                                               <div class="row d-flex tablehead">
                                                 <div class="col-lg-4 search">
@@ -254,7 +225,7 @@ https://templatemo.com/tm-568-digimedia
                                                 <div class="col-lg-8 createNew">
                                                   <a class="btn btn-primary btn-create" href="/contacts/groups/addboth" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                                 </div> <br>
-                                            </div> 
+                                            </div>
                                               <table id="dtBasicExample" class="table table-striped table-xs mb-0">
                                                 <thead>
                                                     <tr>
@@ -266,14 +237,21 @@ https://templatemo.com/tm-568-digimedia
                                                   <tr>
                                                     <td>Engaged User from Manila</td>
                                                     <td>
-                                                        <i class="bi bi-pencil-fill"></i>
-                                                        <span class="px-3"><i class="bi bi-trash-fill"></i></span>
-                                                        <i class="bi bi-three-dots"></i>
-
+                                                      <span class="actionButton">
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#viewBoth">
+                                                              <i class="bi bi-eye-fill"></i>
+                                                          </a>
+                                                          <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editBothSel">
+                                                              <i class="bi bi-pencil-fill"></i>
+                                                          </a>
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#deleteCampaign">
+                                                              <i class="bi bi-trash-fill"></i>
+                                                          </a>
+                                                        </span>
                                                     </td>
                                                   </tr>
 
-                                                  
+
                                                 </tbody>
                                             </table>
                                             </div>
@@ -292,31 +270,48 @@ https://templatemo.com/tm-568-digimedia
                 {{-- </div> --}}
             </ul>
         </div>
-        
+
       </div>
   </div>
 
-  
-    
+
+
   <!-- Page content wrapper-->
-    
+
 </div>
+@extends('modal')
+@section('content')
+  
+@endsection
+<!-- Modal -->
+{{-- <div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> --}}
 
-
-{{-- <script type="text/javascript">
-  $(document).ready(function () {
-  $('#dtBasicExample').DataTable();
-  $('.dataTables_length').addClass('bs-select');
-});
-
+{{-- <script>
+  $(function() {
+    $('#viewModal').modal({
+    show: true
+    });
+  });
 </script> --}}
 
-  
-  
-  
- 
   @extends('layouts.footer')
-  
+
   @section('content')
 
   @endsection
