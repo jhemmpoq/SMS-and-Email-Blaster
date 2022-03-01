@@ -379,7 +379,8 @@ img {
   }
 
   .head-page-title{
-    padding-top: 3vh;
+    /* padding-top: 3vh 0vh; */
+    margin-top: 3rem!important;
     text-align: center;
     font: normal bolder 35px "Arial Black", sans-serif ;
   }

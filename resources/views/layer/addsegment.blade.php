@@ -109,7 +109,7 @@ https://templatemo.com/tm-568-digimedia
                     <li>
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
                             <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Contacts</span> </a>
-                        <ul class="collapse show nav flex-column ms-4" id="submenu1" data-bs-parent="#menu">
+                        <ul class="collapse nav flex-column ms-4" id="submenu1" data-bs-parent="#menu">
                             <li class="w-100">
                                 <a href="/contact/list" class="nav-link px-0"><i class="bi bi-list-ul"></i> <span class="d-none d-sm-inline">List</span></a>
                             </li>
@@ -132,27 +132,91 @@ https://templatemo.com/tm-568-digimedia
         </div>
           
             <div class="col">
-                <p class="head-page-title">Add New Group</p>
+                <p class="head-page-title">Add New Segment</p>
                     <ul class="list-unstyled">
                       <div class="container-fluid mt-100">
                         <div class="row">
                             <div class="col d-flex justify-content-center">
-                                <div class="card col-lg-8">
+                                <div class="card col-lg-9">
                                     <div class="card-body">
-                                            <div class="form-row">
-                                              <div class="form-group-inline col form-data">
-                                                <label for="inputName">Group Name</label>
-                                                <input type="text" class="form-control" id="inputName" placeholder="Group Name">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="inputSName">Segment Name</label>
+                                                <input type="text" class="form-control" id="inputSName" placeholder="Segment Name">
                                               </div>
-                                              <div class="form-group-inline col form-data d-grid gap-2">
-                                                <a class="btn btn-outline-primary ml-2" href="#" data-bs-toggle="modal" data-bs-target="#addGMember">Add from list</a>
-                                                <a class="btn btn-outline-warning"  href="#" data-bs-toggle="modal" data-bs-target="#addGOMember">Add from other group</a>
+                                            <div class="form-row row my-4">
+                                                <label for="inputSActivity">Activity</label>
+                                              <div class="form-group col-md-6">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option selected value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                              </div>
+                                              <div class="form-group col-md-6 row">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option selected value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
                                               </div>
                                             </div>
+                                            <div class="form-row row my-4">
+                                                <label for="inputSActivity">List</label>
+                                              <div class="form-group col-lg-5">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option selected value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                              </div>
+                                              <div class="form-group col-lg-2 d-grid">
+                                                <a href="#" class="btn btn-dark">OR</a>
+                                              </div>
+                                              <div class="form-group col-lg-5 row">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option selected value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                              </div>
+                                            </div>
+                                            <div class="form-row row my-4">
+                                              <label for="inputCity">Contacts Details</label>
+                                              <div class="form-group col-md-5">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option selected value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                              </div>
+                                              <div class="form-group col-md-3">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option selected value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                              </div>
+                                              <div class="form-group col-md-4">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option selected value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                              </div>
+                                            </div>
+                                        </form>
                                             
                                             <div class="add-button">
-                                                <a href="/contact/group" class="btn btn-link" >Cancel</a>
-                                                <a href="/contact/group" class="btn btn-primary" >Create</a>
+                                                <a href="/segment" class="btn btn-link" >Cancel</a>
+                                                <a href="/segment" class="btn btn-primary" >Create</a>
                                              
                                             </div>
                                          
@@ -174,10 +238,16 @@ https://templatemo.com/tm-568-digimedia
     
 </div>
 
-  @extends('modal')
-  @section('content')
-    
-  @endsection
+
+{{-- <script type="text/javascript">
+  $(document).ready(function () {
+  $('#dtBasicExample').DataTable();
+  $('.dataTables_length').addClass('bs-select');
+});
+
+</script> --}}
+
+  
 
  
   @extends('layouts.footer')

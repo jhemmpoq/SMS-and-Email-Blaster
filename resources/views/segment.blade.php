@@ -150,7 +150,7 @@ https://templatemo.com/tm-568-digimedia
                                       <input class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
                                     </div>
                                     <div class="col-lg-8 createNew">
-                                      <a class="btn btn-primary btn-create" href="#" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
+                                      <a class="btn btn-primary btn-create" href="/segment/addsegment" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                     </div> <br>
                                 </div> 
                                   <div class="active-member">
@@ -167,32 +167,32 @@ https://templatemo.com/tm-568-digimedia
                                                       <td>Engaged User from last email in Makati</td>
                                                       <td>
                                                         <span class="actionButton">
-                                                          <a href="#">
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#viewSegment">
                                                               <i class="bi bi-eye-fill"></i>
                                                           </a>
-                                                          <a href="#" class="px-3">
+                                                          <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editSegment">
                                                               <i class="bi bi-pencil-fill"></i>
                                                           </a>
-                                                          <a href="#">
+                                                          <a href="#" data-bs-toggle="modal" data-bs-target="#deleteSegment">
                                                               <i class="bi bi-trash-fill"></i>
                                                           </a>
-                                                      </span>
+                                                        </span>
                                                       </td>
                                                   </tr>
                                                   <tr>
                                                     <td>Engaged User from Manila</td>
                                                     <td>
                                                       <span class="actionButton">
-                                                        <a href="#">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#viewSegment">
                                                             <i class="bi bi-eye-fill"></i>
                                                         </a>
-                                                        <a href="#" class="px-3">
+                                                        <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editSegment">
                                                             <i class="bi bi-pencil-fill"></i>
                                                         </a>
-                                                        <a href="#">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#deleteSegment">
                                                             <i class="bi bi-trash-fill"></i>
                                                         </a>
-                                                    </span>
+                                                      </span>
                                                     </td>
                                                 </tr>
 
@@ -238,18 +238,10 @@ https://templatemo.com/tm-568-digimedia
 </div>
 
 
-{{-- <script type="text/javascript">
-  $(document).ready(function () {
-  $('#dtBasicExample').DataTable();
-  $('.dataTables_length').addClass('bs-select');
-});
-
-</script> --}}
-
-  
-  
-  
- 
+  @extends('modal')
+  @section('content')
+    
+  @endsection
   @extends('layouts.footer')
   
   @section('content')

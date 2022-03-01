@@ -132,7 +132,7 @@ https://templatemo.com/tm-568-digimedia
         </div>
           
             <div class="col py-3">
-                <h3 class="head-page-title">Contacts</h3>
+                <h3 class="head-page-title">Contact List</h3>
                     <ul class="list-unstyled">
                       <div class="container-fluid mt-100">
                         <div class="row">

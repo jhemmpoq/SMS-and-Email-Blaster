@@ -134,185 +134,146 @@ https://templatemo.com/tm-568-digimedia
         </div>
           
             <div class="col py-3">
-                <h3 class="head-page-title">Group Contacts</h3>
+                <h3 class="head-page-title mb-3">Edit Group Details</h3>
                     <ul class="list-unstyled">
                     {{-- <div class="card border-primary"> --}}
 
-                      <div class="container-fluid mt-100">
+                      <div class="container-fluid">
                         <div class="row">
-                            <nav aria-label="breadcrumb pull-right">
-                                <ol class="breadcrumb">
-                                  <li class="breadcrumb-item"><a href="/services">Services</a></li>
-                                  <li class="breadcrumb-item"><a href="/services">Contacts</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Groups</li>
-                                </ol>
-                              </nav>
-                            <div class="col-lg-12 main-datatable">
+                            <div class="col-lg-12">
                                 <div class="card">
                                     <div class="card-body">
                                         
+                                        <form class="col-lg">
+                                            <div class="form-group">
+                                                <label for="groupName">Group Name</label>
+                                                <input type="text" class="form-control" id="groupName" placeholder="Group Name">
+                                              </div>
+                                              <div class="form-group my-4">
+                                                <label for="inputMember">Number of Member</label>
+                                                <p id="inputMember">***</p>
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="groupStatus">Status</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option>Select status</option>
+                                                    <option selected class="bg-primary" value="1">Active</option>
+                                                    <option value="2" class="bg-danger">Unactive</option>
+                                                </select>
+                                              </div>
+                                              <div class="save pull-right mt-3">
+                                                <a href="/contact/group" class="btn btn-link">Cancel</a>
+                                                <a href="/contact/group" class="btn btn-primary">Save</a>
+                                              </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12 main-datatable">
+                                <div class="card">
+                                    <div class="card-body">
+                                    
                                       <div class="row d-flex">
+                                        <h2 class="col-lg-8">Edit Group List</h2>
                                         <div class="col-lg-4 search">
                                           <input class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
-                                        </div>
-                                        <div class="col-lg-8 createNew">
-                                          <a class="btn btn-primary btn-create" href="/contacts/groups/addgroup" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                         </div> <br>
                                       </div> 
                                       <div class="active-member">
                                             <div class="table-responsive">
-                                                <table id="conGroup" class="table table-striped table-xs mb-0">
+                                                <table id="dtBasicExample" class="table table-striped table-xs mb-0">
                                                     <thead>
                                                         <tr>
                                                             <th scope="col">
                                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                             </th>
                                                             <th scope="col">Name</th>
-                                                            <th scope="col">Member</th>
-                                                            <th scope="col">Status</th>
+                                                            <th scope="col">Email</th>
+                                                            <th scope="col">Contact No.</th>
                                                             <th scope="col">Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td><input class="form-check-input px-2" type="checkbox" value="" id="flexCheckDefault"></td>
-                                                            <td>Samantha Incorporated</td>
-                                                            <td>143</td>
-                                                            <td> <span class="badge bg-primary">Active</span></td>
+                                                            <td>Apple Disousa</td>
+                                                            <td>name@mail.com</td>
+                                                            <td> +639 12 3456 789</td>
                                                             <td>
-                                                                <div class="btn-group">
-                                                                    <a href="" class="dropdown-toogle dropdown-icon" data-bs-toggle="dropdown">
-                                                                        <i class="fa fa-pencil-square-o"></i>
+                                                                <span class="actionButton">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
+                                                                        <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li>
-                                                                            <a href="#" target="_blank">
-                                                                                Dummy Details
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#" target="_blank">
-                                                                                Dummy Details
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#" target="_blank">
-                                                                                Dummy Details
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                                <span class="actionCust">
-                                                                    <a href="#">
-                                                                        <i class="fa fa-line-chart"></i>
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
+                                                                        <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                </span>
-                                                                <div class="btn-group">
-                                                                    <a class="dropdown-toogle dropdown-icon" data-bs-toggle="dropdown">
-                                                                        <i class="fa fa-ellipsis-h"></i>
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
+                                                                        <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                    <ul class="dropdown-menu dropdown-more">
-                                                                        <li>
-                                                                            <a href="#" target="_blank">
-                                                                                <i class="fa fa-clone"></i>Duplicate
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#" target="_blank">
-                                                                                <i class="fa fa-trash"></i>Delete
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#" target="_blank">
-                                                                                <i class="fa fa-list"></i>Activity
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
+                                                                  </span>
+                                                            
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                            <td><input class="form-check-input px-2" type="checkbox" value="" id="flexCheckDefault"></td>
+                                                            <td>Johnson Smith</td>
+                                                            <td>name@mail.com</td>
+                                                            <td>+639 12 3456 789</td>
+                                                            <td>
+                                                                <span class="actionButton">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
+                                                                        <i class="bi bi-eye-fill"></i>
+                                                                    </a>
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
+                                                                        <i class="bi bi-pencil-fill"></i>
+                                                                    </a>
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
+                                                                        <i class="bi bi-trash-fill"></i>
+                                                                    </a>
+                                                                  </span>
 
                                                             </td>
-                                                        </tr>    
-                                                        
-                                                        <tr>
-                                                            <td><input class="form-check-input px-2" type="checkbox" value="" id="flexCheckDefault"></td>
-                                                            <td>Johnson Incorporated</td>
-                                                            <td>274</td>
-                                                            <td> <span class="badge bg-primary">Active</span> </td>
-                                                            <td>
-                                                                <span class="actionButton">
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
-                                                                        <i class="bi bi-eye-fill"></i>
-                                                                    </a>
-                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
-                                                                        <i class="bi bi-pencil-fill"></i>
-                                                                    </a>
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
-                                                                        <i class="bi bi-trash-fill"></i>
-                                                                    </a>
-                                                                </span>
-                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td><input class="form-check-input px-2" type="checkbox" value="" id="flexCheckDefault"></td>
-                                                            <td>Peace Incorporated </td>
-                                                            <td>126</td>
-                                                            <td> <span class="badge bg-danger">Unactive</span></td>
+                                                            <td>Nathon Lyon</td>
+                                                            <td>name@mail.com</td>
+                                                            <td> +639 12 3456 789</td>
                                                             <td>
                                                                 <span class="actionButton">
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewList">
                                                                         <i class="bi bi-eye-fill"></i>
                                                                     </a>
-                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
+                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editList">
                                                                         <i class="bi bi-pencil-fill"></i>
                                                                     </a>
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
+                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteList">
                                                                         <i class="bi bi-trash-fill"></i>
                                                                     </a>
-                                                                </span>
+                                                                  </span>
+
                                                             </td>
                                                         </tr>
-                                                        
-                                                        <tr>
-                                                            <td><input class="form-check-input px-2" type="checkbox" value="" id="flexCheckDefault"></td>
-                                                            <td>Simply Corporation</td>
-                                                            <td>96</td>
-                                                            <td><span class="badge bg-primary">Active</span></td>
-                                                            <td>
-                                                                <span class="actionButton">
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
-                                                                        <i class="bi bi-eye-fill"></i>
-                                                                    </a>
-                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
-                                                                        <i class="bi bi-pencil-fill"></i>
-                                                                    </a>
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
-                                                                        <i class="bi bi-trash-fill"></i>
-                                                                    </a>
-                                                                </span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><input class="form-check-input px-2" type="checkbox" value="" id="flexCheckDefault"></td>
-                                                            <td>Sample Corporation </td>
-                                                            <td>118</td>
-                                                            <td> <span class="badge bg-primary">Active</span> </td>
-                                                            <td>
-                                                                <span class="actionButton">
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#viewGroup">
-                                                                        <i class="bi bi-eye-fill"></i>
-                                                                    </a>
-                                                                    <a href="#" class="px-3" data-bs-toggle="modal" data-bs-target="#editGroup">
-                                                                        <i class="bi bi-pencil-fill"></i>
-                                                                    </a>
-                                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#deleteGroup">
-                                                                        <i class="bi bi-trash-fill"></i>
-                                                                    </a>
-                                                                </span>
-                                                            </td>
-                                                        </tr>
-                                                        </tr>
-                                                        
                                                     </tbody>
+                                                    <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body" id="mediumBody">
+                                                                    <div>
+                                                                        <!-- the result to be displayed apply here -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </table>
                                                 
                                             </div>

@@ -131,32 +131,13 @@ https://templatemo.com/tm-568-digimedia
             </div>
         </div>
           
-            <div class="col">
-                <p class="head-page-title">Add New Group</p>
+            <div class="col py-3">
+                <h3 class="head-page-title">Home</h3>
                     <ul class="list-unstyled">
                       <div class="container-fluid mt-100">
                         <div class="row">
-                            <div class="col d-flex justify-content-center">
-                                <div class="card col-lg-8">
-                                    <div class="card-body">
-                                            <div class="form-row">
-                                              <div class="form-group-inline col form-data">
-                                                <label for="inputName">Group Name</label>
-                                                <input type="text" class="form-control" id="inputName" placeholder="Group Name">
-                                              </div>
-                                              <div class="form-group-inline col form-data d-grid gap-2">
-                                                <a class="btn btn-outline-primary ml-2" href="#" data-bs-toggle="modal" data-bs-target="#addGMember">Add from list</a>
-                                                <a class="btn btn-outline-warning"  href="#" data-bs-toggle="modal" data-bs-target="#addGOMember">Add from other group</a>
-                                              </div>
-                                            </div>
-                                            
-                                            <div class="add-button">
-                                                <a href="/contact/group" class="btn btn-link" >Cancel</a>
-                                                <a href="/contact/group" class="btn btn-primary" >Create</a>
-                                             
-                                            </div>
-                                         
-                                    </div>
+                            <div class="col-lg-12">
+                               
                             </div>
                         </div>
                     </div>
@@ -174,11 +155,13 @@ https://templatemo.com/tm-568-digimedia
     
 </div>
 
-  @extends('modal')
-  @section('content')
-    
-  @endsection
 
+@extends('modal')
+@section('content')
+    
+@endsection
+  
+  
  
   @extends('layouts.footer')
   

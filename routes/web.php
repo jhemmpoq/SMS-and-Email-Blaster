@@ -22,15 +22,15 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/services', function () {
-    return view('services.email');
+    return view('services.home');
 });
 Route::get('/contact/list', function () {
-    return view('services.email');
+    return view('services.list');
     
 });
 
 Route::get('/contact/group', function () {
-    return view('services.congroup');   
+    return view('services.group');   
 });
 
 
@@ -59,10 +59,6 @@ Route::get('/pricing', function () {
 
 Route::get('/campaign', function () {
     return view('campaign');
-});
-
-Route::get('/congroup', function () {
-    return view('services.congroup');
 });
 
 Route::get('/contacts/list/addlist', function () {
@@ -95,4 +91,12 @@ Route::get('/modal', function () {
 
 Route::get('/sample', function () {
     return view('sample');
+});
+
+Route::get('/contacts/groups/editgroup', function () {
+    return view('layer.editgroup');
+});
+
+Route::get('/segment/addsegment', function () {
+    return view('layer.addsegment');
 });
