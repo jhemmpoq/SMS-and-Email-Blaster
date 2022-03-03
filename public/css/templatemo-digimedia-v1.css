@@ -410,6 +410,21 @@ img {
   .personbtn {
     position: absolute;
   }
+  .hr {
+    border-top: 5px solid rgb(255, 0, 0);
+  }
+  .mainbody {
+    background-image: url(../images/content.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+  .container-fluid{
+    margin-top: 100px;
+  }
+
   #wrapper {
     overflow-x: hidden;
   }

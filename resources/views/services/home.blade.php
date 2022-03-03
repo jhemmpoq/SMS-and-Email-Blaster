@@ -76,11 +76,11 @@ https://templatemo.com/tm-568-digimedia
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-  <div class="head">
+  {{-- <div class="head">
     <img class="image" alt="" srcset="">
     <h2 class="title">SMS &amp; Email Blaster</h2>
     <h4 class="sub-title">"Make your work Easier"</h4>
-  </div>
+  </div> --}}
 
   <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
@@ -132,6 +132,7 @@ https://templatemo.com/tm-568-digimedia
         </div>
           
             <div class="col py-3">
+              <img class="mainbody" src="" alt="">
                 <h3 class="head-page-title">Home</h3>
                     <ul class="list-unstyled">
                       <div class="container-fluid mt-100">

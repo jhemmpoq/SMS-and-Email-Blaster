@@ -146,7 +146,7 @@
                                                   <input class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
                                                 </div>
                                                 <div class="col-lg-8 createNew">
-                                                  <a class="btn btn-primary btn-create" href="/contacts/groups/addsms" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
+                                                  <a class="btn btn-primary btn-create" href="/campaign/new/addsms" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                                 </div> <br>
                                             </div>
                                             <table id="dtBasicExample" class="table table-striped table-xs mb-0">
@@ -183,7 +183,7 @@
                                                   <input class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
                                                 </div>
                                                 <div class="col-lg-8 createNew">
-                                                  <a class="btn btn-primary btn-create" href="/contacts/groups/addemail" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
+                                                  <a class="btn btn-primary btn-create" href="/campaign/new/addemail" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                                 </div> <br>
                                             </div>
                                               <table id="dtBasicExample" class="table table-striped table-xs mb-0">
@@ -223,7 +223,7 @@
                                                   <input class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
                                                 </div>
                                                 <div class="col-lg-8 createNew">
-                                                  <a class="btn btn-primary btn-create" href="/contacts/groups/addboth" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
+                                                  <a class="btn btn-primary btn-create" href="/campaign/new/addboth" role="button"><i class="bi bi-plus-circle"></i>  Create New</a> <br>
                                                 </div> <br>
                                             </div>
                                               <table id="dtBasicExample" class="table table-striped table-xs mb-0">

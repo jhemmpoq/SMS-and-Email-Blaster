@@ -132,13 +132,14 @@ https://templatemo.com/tm-568-digimedia
         </div>
           
             <div class="col">
-                <p class="head-page-title">Contacts</p>
+                <p class="head-page-title">Add SMS and Email Campaign</p>
                     <ul class="list-unstyled">
                       <div class="container-fluid mt-100">
                         <div class="row">
                             <div class="col d-flex justify-content-center">
-                                <div class="card col-lg-8">
+                                <div class="card col-lg-10">
                                     <div class="card-body">
+                                            <h3 class="col-lg-12">Add SMS Campaign</h3>
                                             <div class="form-row">
                                               <div class="form-group-inline col form-data">
                                                 <label for="inputName">Name</label>
@@ -153,10 +154,57 @@ https://templatemo.com/tm-568-digimedia
                                                 <input type="text" class="form-control" id="inputNumber" placeholder="Contact Number">
                                               </div>
                                             </div>
+                                            <br><hr class="hr"><br>
+
+                                            <h3 class="col-lg-12">Add Email Campaign</h3>
+                                            <div class="form-row">
+                                              <div class="form-group-inline col form-data">
+                                                  <div class="form-row row">
+                                                      <label for="inputName">Name</label>
+                                                      <div class="form-group col-md-10">
+                                                      <input type="tezt" class="form-control" id="inputName" placeholder="Name">
+                                                      </div>
+                                                      <div class="form-group col-md-2">
+                                                      <a class="form-control btn btn-success">Personalize</a>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="form-group-inline col form-data">
+                                                  <label for="inputHeeader">Preheader</label>
+                                                  <input type="text" class="form-control" id="inputHader" placeholder="Preheader">
+                                              </div>
+                                              <div class="form-group-inline col form-data">
+                                                  <label for="inputName">From Name</label>
+                                                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                              </div>
+                                              <div class="form-group-inline col form-data">
+                                                  <div class="form-row row">
+                                                          <div class="form-group col-md-6">
+                                                              <label for="inputFAddress">From Address</label>
+                                                              <select class="form-select" aria-label="Default select example">
+                                                                  <option selected>Open this select menu</option>
+                                                                  <option value="1">One</option>
+                                                                  <option value="2">Two</option>
+                                                                  <option value="3">Three</option>
+                                                              </select>
+                                                          </div>
+                                                      
+                                                          <div class="form-group col-md-6">
+                                                              <label for="inputRTAddress">Reply-To-Address</label>
+                                                              <select class="form-select" aria-label="Default select example">
+                                                                  <option selected>Open this select menu</option>
+                                                                  <option value="1">One</option>
+                                                                  <option value="2">Two</option>
+                                                                  <option value="3">Three</option>
+                                                              </select>
+                                                          </div>
+                                                  </div>
+                                              </div>
+                                          </div>
                                             
                                             <div class="add-button">
-                                                <a href="/services" class="btn btn-link" >Cancel</a>
-                                                <a href="/services" class="btn btn-primary" >Create</a>
+                                                <a href="/campaign" class="btn btn-link" >Cancel</a>
+                                                <a href="/campaign" class="btn btn-primary" >Create</a>
                                              
                                             </div>
                                          

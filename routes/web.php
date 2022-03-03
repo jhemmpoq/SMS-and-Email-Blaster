@@ -73,15 +73,15 @@ Route::get('/contacts/groups/addgroup', function () {
     return view('layer.addgroup');
 });
 
-Route::get('/contacts/groups/addsms', function () {
+Route::get('/campaign/new/addsms', function () {
     return view('layer.addsms');
 });
 
-Route::get('/contacts/groups/addemail', function () {
+Route::get('/campaign/new/addemail', function () {
     return view('layer.addemail');
 });
 
-Route::get('/contacts/groups/addboth', function () {
+Route::get('/campaign/new/addboth', function () {
     return view('layer.addboth');
 });
 

@@ -214,11 +214,11 @@
 <div class="campaign">
     <div class="sms">
         {{-- VIEW MODAL --}}
-        <div class="modal fade" id="viewSMSCampaign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="viewSMSCampaign" tabindex="-1" aria-labelledby="viewSMSCampaignLabel" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">View Segment</h5>
+                <h5 class="modal-title" id="viewSMSCampaignLabel">View SMS Campaign</h5>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -287,7 +287,6 @@
                 Are you sure you want to delete?  
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-link" data-bs-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-danger">Delete</button>
                 </div>
             </div>
@@ -298,11 +297,11 @@
 
     <div class="email">
         {{-- VIEW MODAL --}}
-        <div class="modal fade" id="viewEmailCampaign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="viewEmailCampaign" tabindex="-1" aria-labelledby="viewEmailCampaignLabel" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">View Segment</h5>
+                <h5 class="modal-title" id="viewEmailCampaignLabel">View Email Campaign</h5>
                 </div>
                 <div class="modal-body">
                     <div class="form-row">
@@ -359,11 +358,11 @@
         {{-- END VIEW MODAL --}}
 
         {{-- EDIT MODAL --}}
-        <div class="modal fade" id="editEmailCampaign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="editEmailCampaign" tabindex="-1" aria-labelledby="editEmailCampaignLabel" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Segment</h5>
+                    <h5 class="modal-title" id="editEmailCampaignLabel">Edit Email Campaign</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
@@ -392,7 +391,7 @@
                             <div class="form-row row">
                                     <div class="form-group col-md-6">
                                         <label for="inputFAddress">From Address</label>
-                                        <select class="form-select" aria-label="Default select example" disabled>
+                                        <select class="form-select" aria-label="Default select example">
                                             <option>Open this select menu</option>
                                             <option selected value="1">One</option>
                                             <option value="2">Two</option>
@@ -459,7 +458,6 @@
                 Are you sure you want to delete?  
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-link" data-bs-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-danger">Delete</button>
                 </div>
             </div>
@@ -472,11 +470,11 @@
     <div class="both">
 
         <div class="view-both">
-            <div class="modal fade" id="editBothSel" aria-hidden="true" aria-labelledby="editBothLabel" tabindex="-1">
+            <div class="modal fade" id="viewBoth" aria-hidden="true" aria-labelledby="viewBothLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="editBothLabel">SMS and Email</h5>
+                            <h5 class="modal-title" id="viewBothLabel">SMS and Email</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
     
@@ -787,10 +785,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    Are you sure yo want to delete?
+                    Are you sure you want to delete?
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-link" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-danger">Delete</button>
                     </div>
                 </div>

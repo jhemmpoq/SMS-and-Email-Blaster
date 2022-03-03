@@ -95,9 +95,9 @@ https://templatemo.com/tm-568-digimedia
     </div> --}}
     <div class="container-fluid">     
       <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <div class="col-auto col-lg-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <a href="/" class="d-flex align-items-center pb-3 mb-lg-0 me-lg-auto text-white text-decoration-none">
                     <span class="fs-5 d-none d-sm-inline">Menu</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
@@ -137,46 +137,65 @@ https://templatemo.com/tm-568-digimedia
                       <div class="container-fluid mt-100">
                         <div class="row">
                             <div class="col d-flex justify-content-center">
-                                <div class="card col-lg-9">
+                                <div class="card col-lg-7">
                                     <div class="card-body">
                                         <form>
-                                            <div class="form-group">
+                                            <div class="form-row">
                                                 <label for="inputSName">Segment Name</label>
                                                 <input type="text" class="form-control" id="inputSName" placeholder="Segment Name">
                                               </div>
-                                            <div class="form-row row my-4">
-                                                <label for="inputSActivity">Activity</label>
-                                              <div class="form-group col-md-6">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option>Open this select menu</option>
-                                                    <option selected value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
+                                              <div class="form-row row my-4">
+                                                <label for="inputCity">Activity</label>
+                                                <div class="form-group col-lg-6">
+                                                  <select class="form-select" aria-label="Default select example">
+                                                      <option>Open this select menu</option>
+                                                      <option value="1">One</option>
+                                                      <option selected value="2">Two</option>
+                                                      <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-6">
+                                                  <select class="form-select" aria-label="Default select example">
+                                                      <option>Open this select menu</option>
+                                                      <option value="1">One</option>
+                                                      <option selected value="2">Two</option>
+                                                      <option value="3">Three</option>
+                                                    </select>
+                                                </div>
                                               </div>
-                                              <div class="form-group col-md-6 row">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option selected value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
+                                              <div class="form-row row my-4">
+                                                <label for="inputCity">Contacts Details</label>
+                                                <div class="form-group col-lg-5">
+                                                  <select class="form-select" aria-label="Default select example">
+                                                      <option>Open this select menu</option>
+                                                      <option value="1">One</option>
+                                                      <option selected value="2">Two</option>
+                                                      <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-2 d-grid">
+                                                  <a href="#" class="btn btn-dark">OR</a>
+                                                </div>
+                                                <div class="form-group col-lg-5">
+                                                  <select class="form-select" aria-label="Default select example">
+                                                      <option>Open this select menu</option>
+                                                      <option value="1">One</option>
+                                                      <option selected value="2">Two</option>
+                                                      <option value="3">Three</option>
+                                                    </select>
+                                                </div>
                                               </div>
-                                            </div>
                                             <div class="form-row row my-4">
-                                                <label for="inputSActivity">List</label>
+                                              <label for="inputCity">Contacts Details</label>
                                               <div class="form-group col-lg-5">
                                                 <select class="form-select" aria-label="Default select example">
                                                     <option>Open this select menu</option>
-                                                    <option selected value="1">One</option>
-                                                    <option value="2">Two</option>
+                                                    <option value="1">One</option>
+                                                    <option selected value="2">Two</option>
                                                     <option value="3">Three</option>
                                                   </select>
                                               </div>
-                                              <div class="form-group col-lg-2 d-grid">
-                                                <a href="#" class="btn btn-dark">OR</a>
-                                              </div>
-                                              <div class="form-group col-lg-5 row">
+                                              <div class="form-group col-lg-3">
                                                 <select class="form-select" aria-label="Default select example">
                                                     <option>Open this select menu</option>
                                                     <option value="1">One</option>
@@ -184,26 +203,7 @@ https://templatemo.com/tm-568-digimedia
                                                     <option value="3">Three</option>
                                                   </select>
                                               </div>
-                                            </div>
-                                            <div class="form-row row my-4">
-                                              <label for="inputCity">Contacts Details</label>
-                                              <div class="form-group col-md-5">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option selected value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
-                                              </div>
-                                              <div class="form-group col-md-3">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option selected value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
-                                              </div>
-                                              <div class="form-group col-md-4">
+                                              <div class="form-group col-lg-4">
                                                 <select class="form-select" aria-label="Default select example">
                                                     <option>Open this select menu</option>
                                                     <option value="1">One</option>
